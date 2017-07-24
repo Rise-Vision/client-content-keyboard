@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="67px" height="53px" viewBox="0 0 67 53" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.1 (43504) - http://www.bohemiancoding.com/sketch -->
+    <title>delete</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-1.8%" y="-0.7%" width="103.6%" height="105.8%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="6" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.24 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#00AAD1" offset="0%"></stop>
+            <stop stop-color="#0071A5" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="IEEE-RECIPIENT-SEARCH" transform="translate(-1444.000000, -725.000000)" fill="url(#linearGradient-2)">
+            <g id="Group-4" transform="translate(275.000000, 132.000000)">
+                <g id="Group" filter="url(#filter-1)">
+                    <g id="Keyboard" transform="translate(64.000000, 313.000000)">
+                        <g id="Row-7" transform="translate(0.081960, 247.495764)">
+                            <g id="backspace" transform="translate(0.930225, 0.000000)">
+                                <g id="button-bg-+-delete" transform="translate(1080.210898, 0.000000)">
+                                    <path d="M46.1169091,33.3617247 C44.5130437,33.3617247 43.1383019,34.0188496 42.2218074,35.3330993 L29.8491312,53.0754711 L42.2218074,70.8178429 C43.1383019,71.913051 44.5130437,72.7892175 46.1169091,72.7892175 L80.2563304,72.7892175 C82.7766904,72.7892175 84.8388031,70.8178429 84.8388031,68.408385 L84.8388031,37.7425572 C84.8388031,35.3330993 82.7766904,33.3617247 80.2563304,33.3617247 L46.1169091,33.3617247 Z M73.3826214,60.9609697 L70.1748906,64.0275524 L61.9264398,56.1420539 L53.677989,64.0275524 L50.4702582,60.9609697 L58.7187089,53.0754711 L50.4702582,45.1899725 L53.677989,42.1233898 L61.9264398,50.0088883 L70.1748906,42.1233898 L73.3826214,45.1899725 L65.1341706,53.0754711 L73.3826214,60.9609697 L73.3826214,60.9609697 Z" id="delete"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
