@@ -51,6 +51,12 @@ gulp.task("scripts",function(){
     .pipe(reload({stream:true}))
 });
 
+gulp.task("imageminification", () => {
+  gulp.src("src/images/*")
+    .pipe(imagemin())
+    .pipe(gulp.dest("build/images"))
+});
+
 gulp.task("watch", function(){
   gulp.watch("src/scripts/**/*.js", ["lint", "scripts"]);
   gulp.watch("src/css/**/*.scss", ["styles"]);
@@ -65,4 +71,4 @@ gulp.task("browser-sync", function() {
   });
 });
 
-gulp.task("default", ["lint", "styles", "scripts", "watch", "browser-sync"]);
+gulp.task("default", ["lint", "styles", "scripts", "imageminification", "watch", "browser-sync"]);
